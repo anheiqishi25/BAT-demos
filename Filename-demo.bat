@@ -1,5 +1,5 @@
 @ECHO OFF
-
+rem 参考：https://stackoverflow.com/questions/15567809/batch-extract-path-and-filename-from-a-variable
 FOR /f %%i IN ('dir /s /b .\*.pdf') do (
   ECHO '%%i'
   FOR %%a IN (%%i) do (
@@ -12,3 +12,4 @@ FOR /f %%i IN ('dir /s /b .\*.pdf') do (
 
 :ex
 pause
+

@@ -1,0 +1,5 @@
+@ECHO OFF
+
+ECHO %date:~0,10%
+
+PAUSE
